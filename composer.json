@@ -1,0 +1,23 @@
+{
+    "name": "kadeke/digipass-bundle",
+    "type": "symfony-bundle",
+    "description": "The Kadeke Digipass bundle supplies your project with a two-factor authenticaton solution using the MyDigipass.com dashboard",
+    "keywords": ["kadeke", "login", "authentication", "two-factor"],
+    "homepage": "https://github.com/Mopster/KadekeDigipassBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenny Debrauwer",
+            "homepage": "http://www.kadeke.be/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": ">=2.3.0,<2.4.0",
+        "sensio/framework-extra-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": { "Kadeke\\DigipassBundle": "" }
+    },
+    "target-dir": "Kadeke/DigipassBundle"
+}

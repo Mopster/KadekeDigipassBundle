@@ -1,0 +1,4 @@
+KadekeDigipassBundle_index:
+    resource: "@KadekeDigipassBundle/Controller/DigipassController.php"
+    type:     annotation
+    prefix:   /digipass

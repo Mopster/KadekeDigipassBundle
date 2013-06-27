@@ -1,0 +1,6 @@
+services:
+    kadeke_digipass.twig.extension:
+        class: Kadeke\DigipassBundle\Twig\DigipassTwigExtension
+        arguments: ['%kadeke_digipass.client.id%']
+        tags:
+            - { name: twig.extension }
